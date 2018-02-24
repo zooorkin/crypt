@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		88F883CB1FBC533F003C7A0D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F883CA1FBC533F003C7A0D /* main.cpp */; };
+		88F883D31FBC5363003C7A0D /* Zn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F883D11FBC5363003C7A0D /* Zn.cpp */; };
+		88F883D61FBC5728003C7A0D /* GF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F883D41FBC5728003C7A0D /* GF.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		88F883C71FBC533F003C7A0D /* crypt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = crypt; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F883CA1FBC533F003C7A0D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		88F883D11FBC5363003C7A0D /* Zn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Zn.cpp; sourceTree = "<group>"; };
+		88F883D21FBC5363003C7A0D /* Zn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Zn.hpp; sourceTree = "<group>"; };
+		88F883D41FBC5728003C7A0D /* GF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GF.cpp; sourceTree = "<group>"; };
+		88F883D51FBC5728003C7A0D /* GF.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GF.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				88F883CA1FBC533F003C7A0D /* main.cpp */,
+				88F883D11FBC5363003C7A0D /* Zn.cpp */,
+				88F883D21FBC5363003C7A0D /* Zn.hpp */,
+				88F883D41FBC5728003C7A0D /* GF.cpp */,
+				88F883D51FBC5728003C7A0D /* GF.hpp */,
 			);
 			path = crypt;
 			sourceTree = "<group>";
@@ -121,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F883CB1FBC533F003C7A0D /* main.cpp in Sources */,
+				88F883D31FBC5363003C7A0D /* Zn.cpp in Sources */,
+				88F883D61FBC5728003C7A0D /* GF.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
