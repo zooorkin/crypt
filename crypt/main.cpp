@@ -64,7 +64,7 @@ void init(char* B/*33*/){
     
 }
 
-void crypt(char* src, char* dest, int l){
+void crypt(char* src, char* dest, size_t l){
     for (int i = 0; i < l; ++i){
         dest[i] = src[i]^getNextS();
     }
@@ -91,10 +91,10 @@ int main(int argc, char** argv) {
     file.read(buf, size);
     
     char B[33];
-    int lengthOfPassword = strlen(argv[2]);
+    size_t lengthOfPassword = strlen(argv[2]);
     for (int i = 0; i < lengthOfPassword; ++i)
         B[i] = argv[2][i];
-    for (int i = lengthOfPassword; i < 33; ++i){
+    for (size_t i = lengthOfPassword; i < 33; ++i){
         B[i] = 0;
     }
     init(B);
