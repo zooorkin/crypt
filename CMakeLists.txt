@@ -3,4 +3,4 @@ project(crypt)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(crypt main.cpp)
+add_executable(crypt main.cpp crypt.cpp crypt.h)
